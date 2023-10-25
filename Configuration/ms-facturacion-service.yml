@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: ms-facturacion
+    name: ms-facturacion-service
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     password: ekn31
