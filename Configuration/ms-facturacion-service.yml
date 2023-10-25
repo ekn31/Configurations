@@ -3,22 +3,16 @@ server:
 
 spring:
   application:
-    name: facturacion-service
+    name: ms-facturacion-service
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    password: ${MYSQL_PASSWORD}
-    url: ${MYSQL_URL}
-    username: ${MYSQL_USERNAME}
+    password: #${MYSQL_PASSWORD}
+    url: #${MYSQL_URL}
+    username: #${MYSQL_USERNAME}
   jpa:
     hibernate:
     ddl-auto: update
     show-sql: false
-
-  rabbitmq:
-    username: guest
-    password: guest
-    host: localhost
-    port: 5672
 
 
 
