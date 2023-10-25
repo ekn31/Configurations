@@ -6,9 +6,9 @@ spring:
     name: ms-facturacion-service
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    password: #${MYSQL_PASSWORD}
-    url: #${MYSQL_URL}
-    username: #${MYSQL_USERNAME}
+    password: ekn31
+    url: jdbc:mysql://localhost:3306/costumemania
+    username: root
   jpa:
     hibernate:
     ddl-auto: update
