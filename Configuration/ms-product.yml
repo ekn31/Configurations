@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: ms-favorite
+    name: ms-product
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     password: ekn31
